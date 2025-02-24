@@ -3,7 +3,7 @@ import React from "react";
 const Welcome = () => {
   return (
     <div style={styles.container}>
-       <p style={styles.description}>Organized by</p>
+       <p style={styles.description}>Organized By</p>
       <h1 style={styles.title} className="glow">Department of Computer Science and Engineering</h1>
       <p style={styles.description}>
       Welcome to Rendezvous 2K25 an National Level Symposium ,where innovation meets inspiration! Join us for a fusion of technical excitement and non-technical excitement, presented by the R.M.D Engineering College Department of Computer Science and Engineering.
@@ -20,7 +20,7 @@ const styles = {
     zIndex: "1" //CHANGED  
   },
   title: {
-    fontSize: "70px",
+    fontSize: "0px",
     fontWeight: "bold",
     textAlign: "center",
     textShadow: "0 0 20px rgb(255, 255, 255)",
